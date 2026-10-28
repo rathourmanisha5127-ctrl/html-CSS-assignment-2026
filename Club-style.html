@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(222, 234, 246);
+        }
+        
+        .code{
+            background-color: blue;
+            border-radius: 10px;
+            height: 200px;
+        }
+        .club{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 35px;
+            font-weight: bold;
+            color: white;
+            position: relative;
+            top: 40%;
+            left: 37%;
+
+        }
+        .share{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: white;
+            position: relative;
+            top: 35%;
+            left: 40%;
+        }
+        .event{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        table{
+            width: 100%;
+          
+        }
+        th{
+             font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            background-color: blue;
+            color: white;
+        }
+        td{
+           
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            background-color: white;
+            color: black;
+
+        }
+        .re{
+            width: 100%;
+            background-color: white;
+        }
+        .register{
+           
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .name{
+            
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            border-radius: 5px;
+            padding-top: 10px;
+            margin-top: 10px;
+            height: 20px;
+        }
+        .reg-button{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            
+           
+            cursor: pointer;
+        }
+        .reg-button:hover{
+            opacity: 0.7;
+            background-color: rgb(14, 14, 211);
+
+        }
+       .reg-button:active{
+         opacity: 0.3;
+       }
+    </style>
+    <div class="build">
+    <div class="code"><h class="club">Coding Club</h>
+        <br><p class="share">learn.build.share.</p>
+    </div>
+    <div>
+        <h class="event">Upcoming Events</h>
+        <table borde="1">
+            <tr>
+                <th>Event</th>
+                <th>Date</th>
+                <th>Venue</th>
+            </tr>
+            <tr>
+                <td>HTML Workshop</td>
+                <td>12 Nov</td>
+                <td>Lab 1</td>
+            </tr>
+            <tr>
+                <td>Hackathon</td>
+                <td>20 Nov</td>
+                <td>Seminar Hall</td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="re">
+        <h2 class="register">Register</h2>
+        <p class="name">Name: <input type="text" id="name" placeholder="Your Name">
+
+
+        </p>
+        <p class="name">Email: <input type="email" id="emil" placeholder="you@example.com">
+
+        </p>
+        <button class="reg-button">Register</button>
+       
+    </div>
+    </div>
+
+</body>
+</html>
